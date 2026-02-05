@@ -44,12 +44,12 @@ export default async function MenuPage() {
                 className="h-40 w-full object-cover rounded"
               />
 
-              {/* ✅ FOOD NAME */}
+              
               <h2 className="text-xl font-semibold mt-3">
                 {food.name}
               </h2>
 
-              {/* ✅ FOOD PRICE */}
+             
               <p className="text-green-600 font-bold">
                 Rs {food.price}
               </p>
